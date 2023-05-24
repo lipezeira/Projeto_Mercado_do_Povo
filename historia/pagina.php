@@ -21,7 +21,7 @@
         <nav>
             <ul>
                 <li><a href="ofertasdodia.php">Ofertas do dia</a></li>
-                <li><a href="index.php">Página Inicial</a></li>
+                <li><a href="paginainicial.php">Página Inicial</a></li>
             </ul>
         </nav>
 </div>
