@@ -1,0 +1,130 @@
+@font-face{
+    src: url("fontes/Montserrat-VariableFont_wght.ttf");
+    font-family:'fontemenu';
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    background-color: white;
+}
+ 
+header{
+    padding: 0.5rem;
+    background-color: #845EC2;
+    height: 16vh;
+}
+
+.navegacao{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 17%;
+    max-height: 100%;
+}
+
+header nav{
+    width: 50%;
+    padding: 0.5rem;
+    background-color: white;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15rem;
+    border-radius: 20px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items:center;
+    background-color: white;
+}
+
+header nav a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'fontemenu';
+}
+
+#prop{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color:#49336d;
+    font-family: 'fontemenu';
+    text-align:center;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.prod{
+    width:20%;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px #845EC2;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'fontemenu';
+    
+}
+
+.prod img{
+    margin-top: 10px;
+    height: 75%;
+    width: 75%;
+ }
+
+ main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+.prod h3{
+    color:green;
+    font-family: 'fontemenu';
+}
+
+.prod h5{
+    color: red;
+    font-family: 'fontemenu';
+}
+
+#botao{
+    background-color: #845EC2;
+    color:white;
+    border-radius:4px;
+    font-size:1rem;
+    font-family: 'fontemenu';
+    text-decoration: none;
+
+}
+
+.prod .info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:1rem;
+ }
