@@ -1,0 +1,132 @@
+@font-face{
+    src: url("fontes/Montserrat-VariableFont_wght.ttf");
+    font-family:'fontemenu';
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+}
+
+header{
+    padding: 0.5rem;
+    background-color:#845EC2;
+    height: 16vh;
+}
+
+header img{
+    width: 20%;
+}
+
+header nav{
+    width:50%;
+    padding:0.5rem;
+    background-color: white;
+    margin: 1em;
+    display: flex;
+    flex-direction:column;
+    margin-right: 15rem;
+    border-radius: 20px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+    background-color: white;
+}
+
+header nav a{
+    color:black;
+    font-size:1rem;
+    font-family: 'fontemenu';
+    text-decoration: none;
+}
+
+#prop{
+    font-size:1.2rem;
+    font-family: 'fontemenu';
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#propaganda{
+    width:100%;
+}
+
+
+.container{
+    max-width:100%;
+    margin:0 auto;
+}
+
+.flex-center-between{
+    display:flex;
+    align-items:center; /*Eixo adjacente*/
+    justify-content:space-between;
+}
+
+main{
+    padding:1rem;    
+}
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#produtos .produto{
+    width:20%;
+    background-color: #f6f2f6;
+    margin-bottom:20px;
+    padding:1rem;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    font-family: "fontemenu"
+}
+
+#produtos .produto img{
+    width:100%;
+    height:10rem;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+
+#produtos .produto h1{
+    font-size:1.2rem;
+ }
+ 
+
+#produtos .produto h2{
+   color: #00c9a7;
+   font-size: 0.8rem;
+   margin:0.3rem;
+}
+
+#produtos .produto h3{
+    color: #00c9a7;
+    font-size: 0.7rem;
+ }
+
+ #produtos .produto h4{
+    text-align:left;
+    font-size: 0.7rem;
+ }
+ 
+ #produtos .produto .info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:1rem;
+ }

@@ -1,0 +1,152 @@
+@font-face{
+    src: url("fontes/Montserrat-VariableFont_wght.ttf");
+    font-family:'fontemenu';
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+}
+
+header{
+    padding: 0.5rem;
+    background-color:#845EC2;
+    height: 16vh;
+}
+
+header img{
+    width: 17%;
+    max-height: 100%;
+}
+
+header nav{
+    width:50%;
+    padding:0.5rem;
+    background-color: white;
+    margin: 1em;
+    display: flex;
+    flex-direction:column;
+    margin-right: 15rem;
+    border-radius: 20px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+    background-color: white;
+}
+
+header nav a{
+    color:black;
+    font-size:1rem;
+    font-family: 'fontemenu';
+    text-decoration: none;
+}
+
+.flex{
+    display:flex;
+    align-items:center; /*Eixo adjacente*/
+    justify-content:space-between;
+}
+
+.produto{
+    display:flex;
+}
+
+.detalhe .produto img{
+    height: 100%;
+    border-radius: 1rem;
+}
+
+#imagem{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    width:50%;
+    height:80vh;
+    margin: 1rem;
+    padding: 3rem;
+    background-color: #DCDCDC;
+    border-radius: 1rem;
+}
+
+#infos{
+    display:flex;
+    padding: 2rem;
+    flex-direction:column;
+    width:50%;
+    height:80vh;
+    margin:1rem;
+    background-color:#DCDCDC;
+    border-radius: 1rem;
+}
+
+
+#infos h2{
+    font-family: 'fontemenu';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+#infos h3{
+    font-family: 'fontemenu';
+    font-size: 1.8rem;
+    margin-top:2rem;
+    text-align: center;
+}
+
+#infos h4{
+    font-family: 'fontemenu';
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top:0.1rem;
+    color:#00c9a7;
+}
+
+#infos h5{
+    font-family: 'fontemenu';
+    font-size: 1rem;
+    text-align: center;
+    margin-top:0.1rem;
+    color:black;
+}
+
+#infos h6{
+    font-family: 'fontemenu';
+    font-size: 1rem;
+    text-align:justify;
+    margin-top:2rem;
+}
+
+#bot{
+    margin-top: 1.2rem;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    width:7rem;
+    height: 2rem;
+    background-color:#845EC2;
+    border-radius:3px;
+}
+
+#bot a{
+    color:white;
+    text-decoration: none;
+    font-family: 'fontemenu';
+    font-size: 1rem;
+    background-color:#845EC2;
+
+}
+
+
