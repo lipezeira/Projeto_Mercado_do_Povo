@@ -218,6 +218,30 @@ $produtos = [
         "valor" => "De R$ 3.900,00",
 
         "valordesconto" => "Por apenas R$ 3.399,99",
+        
+        "descricao" => "
+            Tipo: Windows;
+            <br>
+            Marca: Dell;
+            <br>
+            Modelo: I15-5566-A50B;
+            <br>
+            Polegadas: 15.6;
+            <br>
+            Sistema Operacional: Windows 10;
+            <br>
+            Processador: Intel Core i7;
+            <br>
+            Modelo: 7500U;
+            <br>
+            Núcleos: 2;
+            <br>
+            Velocidade: 2.7 GHz;
+            <br>
+            Cache: 4 MB;
+        ",
+
+        "garantia" => "18 meses." 
 
     ],
 
