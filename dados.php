@@ -82,6 +82,30 @@ $produtos = [
         "valor" => "De R$ 1.000,00",
         
         "valordesconto" => "Por apenas R$ 799,99",
+        
+        "descricao" => "
+        Modelo: ST66NBRU;
+        <br>
+        Cor: Preto;
+        <br>
+        Potência (W): 900W;
+        <br>
+        Capacidade: 34L;
+        <br>
+        Níveis de potência: 10;
+        <br>
+        Peso (kg): 14,8;
+        <br>
+        Altura (cm): 32,5;
+        <br>
+        Largura (cm): 52,0;
+        <br>
+        Comprimento (cm): 43,2;
+        <br>
+        SKU: 220V: 4968523 | 127V: 4968560;
+        ",
+
+        "garantia" => "Garantia: 8 meses." 
     ],
 
     [        
