@@ -46,6 +46,31 @@ $produtos = [
         "valor" => " De R$ 2.900,00",
 
         "valordesconto" => "Por apenas R$ 2.299,99", 
+         "descricao" => "
+            Marca: Brastemp;
+            <br>
+            Modelo: BWK16AB;
+            <br>
+            Cor: Prata;
+            <br>
+            Eficiência energética: A;
+            <br>
+            Capacidade: 16 kg;
+            <br>
+            Peso: 45 kg;
+            <br>
+            Quantidade de programas de lavagem: 12;
+            <br>
+            Níveis de água: 4;
+            <br>
+            Sistema de lavagem: Americano;
+            <br>
+            Tipos de carga de água: Manual, Automática;
+        ",
+
+        "garantia" => "Garantia: 16 meses." 
+   
+
     ],
 
     [        
