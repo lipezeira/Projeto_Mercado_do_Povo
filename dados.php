@@ -184,6 +184,30 @@ $produtos = [
         "valor" => "De R$ 200,00",
 
         "valordesconto" => "Por apenas R$ 159,99",
+        
+        "descricao" => "
+            Comprimento: 130cm;
+            <br>
+            Altura: 63cm;
+            <br>
+            Peças menores: 25x40 cm;
+            <br>
+            Peças médias: 25x51 cm;
+            <br>
+            Peça central: 25x63 cm;
+            <br>
+            Espaçamento entre as peças: 1 cm a 2 cm;
+            <br>
+            Espessura do produto: 2 CM;
+            <br>
+            Tecido: sintético;
+            <br>
+            Tela: Tecido com impressão digital ecológica;
+            <br>
+            Bordas: Com extensão da própria imagem nas laterais;
+        ",     
+
+        "garantia" => "Este produto não possue garantia" 
     ],
 
     [        
