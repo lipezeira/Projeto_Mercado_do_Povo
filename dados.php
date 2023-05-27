@@ -253,6 +253,30 @@ $produtos = [
         "valor" => "De R$190,00",
 
         "valordesconto" => "Por apenas R$ 159,99",
+        
+        "descricao" => "
+            Marca: Wahl;
+            <br>
+            Departamento BS: Cabelos;
+            <br>
+            Indicado para: Dia a Dia;
+            <br>
+            Fonte de Energia: 110;
+            <br>
+            Formato: Com Fio;
+            <br>
+            Classificação: Caseira;
+            <br>
+            Peso do Produto: 0,47 kg;
+            <br>
+            Dimensões Aproximadas: 5 x 19 x 5 cm;
+            <br>
+            SAC: 0800 772 2560;
+            <br>
+            À prova de água: Não;
+        ",        
+
+        "garantia" => "22 meses." 
     ],
 
 ];
