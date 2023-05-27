@@ -116,6 +116,30 @@ $produtos = [
         "valor" => "De R$ 2.200,00",
 
         "valordesconto" => "Por apenas R$ 1.799,99",
+        
+        "descricao" => "
+            Marca: Semp TCL;
+            <br>
+            Modelo: 32RS530;
+            <br>
+            Voltagem: 110V/220V;
+            <br>
+            Tipo de tela: LED;
+            <br>
+            Tipo de resolução: HD;
+            <br>
+            Tamanho da tela(polegadas): 32;
+            <br>
+            Resolução máxima: 1366x768;
+            <br>
+            Taxa de atualização da tela: 60 Hz;
+            <br>
+            Peso: 3.8 kg;
+            <br>
+            Acessórios incluídos: Controle remoto;
+        ",    
+
+        "garantia" => "Garantias: 24 meses." 
     ],
 
     [        
