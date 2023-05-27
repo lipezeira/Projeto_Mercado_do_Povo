@@ -150,6 +150,30 @@ $produtos = [
         "valor" => "De R$ 900,00",
 
         "valordesconto" => "Por apenas R$ 749,99",
+        
+        "descricao" => "
+            Marca: Toyama;
+            <br>
+            Linha: Farmer;
+            <br>
+            Modelo: TCS53F-G2-18SN;
+            <br>
+            Cilindrada: 49.2 cc;
+            <br>
+            Tipos de combustível: Gasolina;
+            <br>
+            Potência: 2.81 hp
+            <br>
+            Peso: 5.32 kg
+            <br>
+            Velocidade máxima: 13500 rpm;
+            <br>
+            Capacidade do tanque: 0.55 L;
+            <br>
+            Acessórios incluídos: Kit ferramentas;
+        ",
+
+        "garantia" => "Garantia: 10 meses." 
     ],
 
     [      
